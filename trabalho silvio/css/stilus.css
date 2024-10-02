@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+    padding:20;
+    background-color: rgba(243, 8, 8, 0.815);    
+    align-items: center;
+    text-align: center;
+}
+
+.conteiner{
+  display: flex;
+  flex-wrap: wrap; /*encapsculado*/
+  justify-content: center;/*espaco em volta*/
+  margin-top: 60px;   
+  align-items: center;
+ 
+}
+.estilos{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    background-color: rgba(236, 55, 23, 0.993);
+    border: 10px double  rgba(10, 10, 10, 0.973);
+    border-radius: 10px; /* arredondamento de borda*/
+    padding: 10px; /*espaco interno*/
+    box-shadow: 10px 10px 10px;
+    width: 20%;
+    text-align: center;
+    float:left;
+}
+h1{
+    color:rgb(245, 240, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 0;
+    padding-right: 0;
+    background-color: rgba(5, 5, 5, 0.904);
+    text-align: center;
+    margin-top: 10px ;
+
+}
+.tipos{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    background-color: rgba(106, 12, 160, 0.993);
+    border: 10px double  rgba(2, 14, 80,0.904);
+    border-radius: 10px; /* arredondamento de borda*/
+    padding: 20px; /*espaco interno*/
+    box-shadow: 10px 10px 10px;
+    width: 20%;
+    text-align: center;
+}
+.fotos{
+    
+    width: 30px;
+    height: 10%;
+    justify-items: left;
+    padding: left 20px;
+    
+
+}
+
+.gojuryu{
+    text-align: center;
+    margin: 40px;
+    font-size:20px;
+    padding-left: 20px;
+}
